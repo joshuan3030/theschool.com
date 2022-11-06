@@ -1,0 +1,141 @@
+body {
+  background-color: #eee;
+}
+.title {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.btn-warning {
+  background-color: #f27649;
+  border-color: #f27649;
+}
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  box-shadow: none;
+  width: 500px;
+}
+.card {
+  font-size: 1em;
+  overflow: hidden;
+  padding: 5;
+  border: none;
+  border-radius: 0.28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.carousel-indicators li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+}
+.carousel-indicators li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+}
+.carousel-indicators .active {
+  background-color: white;
+  max-width: 12px;
+  margin: 0 3px;
+  height: 12px;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: auto;
+}
+
+/* buscador */
+.responsable {
+  display: flex;
+}
+
+/* buscador */
+.buscador {
+  width: 30%;
+}
+.formulario {
+  margin: 40px 20px 20px 40px;
+}
+.caja {
+  margin: 20px;
+}
+
+/* resultado */
+.resultado {
+  width: 70%;
+}
+
+.title {
+  margin: 30px 10px 10px 30px;
+}
+
+.contenedor {
+  margin: 0px 40px 0px 20px;
+}
+
+.adjustable {
+  display: flex;
+  margin-top: 10px;
+}
+
+.img {
+  min-width: 250px;
+  min-height: 150px;
+  max-width: 250px;
+  max-height: 150px;
+}
+
+.texto {
+  margin-left: 15px;
+}
+
+.info {
+  display: flex;
+}
+.enlace_info {
+  width: 30%;
+  margin-left: 40px;
+  min-width: 29%;
+}
+
+a {
+  color: #f27649 !important;
+}
+a:hover {
+  font-size: 15px !important;
+}
+
+/* 
+footer */
+
+.blog-footer {
+  margin-top: 50px;
+  padding: 1rem 0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: #eb8662;
+  border-top: 0.05rem solid #e5e5e5;
+}
+
+.filtro{
+  display: none;
+}
