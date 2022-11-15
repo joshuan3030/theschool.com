@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 06-11-2022 a las 05:08:21
--- Versión del servidor: 10.4.22-MariaDB
--- Versión de PHP: 8.1.2
+-- Tiempo de generación: 15-11-2022 a las 22:52:16
+-- Versión del servidor: 10.4.25-MariaDB
+-- Versión de PHP: 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -68,6 +68,18 @@ INSERT INTO `colegios-login` (`id`, `usuario`, `contrasena`, `nombre_colegio`, `
 (38, 'colegio4', 'colegio4', 'COL COLOMBIA JARDIN INFANTIL MAFALDA', '31900100', '8384033 ', 'cccolombi@gmail.com', 'CL 6 A 21 A 03', 'hermoso centro de aprendizaje, especializado para tu hijo.', 'Popayán', 'privado', 'mañana-tarde', 'primaria-secundaria', 'b', 'especialización en el deporte ', 'Nuestra institución cuenta con convenios con institutos, como el I.T.S y el Sena, universidad del cauca con el objetivo de promover un mejor futuro para nuestros estudiantes.', 'compromiso y ética ', 'contamos con formaciones deportivas en futbol ciclismo natación voleibol entre otros', 'no haber repetido años ', 'inspiramos a ser unos grandes empresarios ', 'http://localhost/school.com/assets/imgs/uploads/mafalda.jpg', 'http://localhost/school.com/assets/imgs/uploads/descarga (7).jfif', 'http://localhost/school.com/assets/imgs/uploads/IMG-20160225-WA0011.jpg', 'http://localhost/school.com/assets/imgs/uploads/13417593_1266564873361550_6884890767994109184_n.jpg', 'http://localhost/school.com/assets/imgs/uploads/descarga (6).jfif'),
 (39, 'colegio5', 'colegio5', 'INSTITUCION EDUCATIVA GABRIELA MINISTRAL ', '11900100', '88233099	', 'gabrielaministral@gmail.com', 'CR 6 PUENTE VIEJO CAUCA	', 'Grabriela Ministral te ofrece una educación de alta calidad ', 'Popayán', 'publico', 'mañana-tarde', 'primaria-secundaria', 'a', 'Nos especializamos en mejorar tu rendimiento académico para mejorar el futuro de nuestros estudiantes ', 'zena, its', 'Alta disciplina un buen rendimiento académico', 'profesores especializados en educación física y canchas en buen estado ', 'disciplina , buen rendimiento académico y responsabilidad ', 'Nos encargamos de especializar a nuestros estudiantes a tener o lograr un mejor futuro ', 'http://localhost/school.com/assets/imgs/uploads/ministral.jpg', 'http://localhost/school.com/assets/imgs/uploads/im1.jpg', 'http://localhost/school.com/assets/imgs/uploads/im2.jpg', 'http://localhost/school.com/assets/imgs/uploads/im3.jpg', 'http://localhost/school.com/assets/imgs/uploads/im5.jpg'),
 (41, 'colegio6', 'colegio6', 'CENTRO EDUCATIVO DEL CAUCA', '319001005', '8380164', 'educativo@delcauca.com', 'KR 5 3 43', 'Nuestra Institución es de muy alta calidad, buscamos siempre que los estudiantes se capaciten mas de lo normal y puedan salir preparados.', 'Popayán', 'privado', 'mañana', 'secundaria', 'b', 'Nuestra especialidad es brindar conocimientos y experiencias a nuestros estudiantes para que sean mejor capacitados.', 'Principalmente nuestros convenios son con el Sena, el cual nos permite brindar una variedad de formaciones adicionales', 'Principalmente nos enfocamos en que los estudiantes se identifique y representen muy bien a nuestra institución. ', 'Nuestro principal enfoque es capacitar a los estudiantes financieramente.', 'Principalmente nos enfocamos en que los estudiantes se identifique y representen muy bien a nuestra institución. ', 'En nuestra institución normalmente se requiere haber tenido un historial de buen desempeño académico en sus anteriores colegios.', 'http://localhost/school.com/assets/imgs/uploads/centro.jpg', 'http://localhost/school.com/assets/imgs/uploads/centro1.jpg', 'http://localhost/school.com/assets/imgs/uploads/centro2.jfif', 'http://localhost/school.com/assets/imgs/uploads/centro3.jpg', 'http://localhost/school.com/assets/imgs/uploads/centro4.jfif');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tm_lenguajes`
+--
+
+CREATE TABLE `tm_lenguajes` (
+  `len_id` int(11) NOT NULL,
+  `len_nom` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
+  `est` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 --
 -- Índices para tablas volcadas
